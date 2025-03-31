@@ -5,7 +5,7 @@
 
 - 👯 Estoy trabajando como Freelance **Empresas de Outsourcing de TI**
 
-- 📫 Escríbeme a **Hola, Jesús0184**
+- 📫 Escríbeme a **Hola, jesusguerrero0184@gmail.com**
 
 <h3 align="left">Conéctate conmigo:</h3>
 <p align="left">
