@@ -4,75 +4,109 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Jesús Enrique Guerrero Peralta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #121212;
-      color: #f0f0f0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #e0e0e0;
       text-align: center;
-      padding: 2rem;
+      padding: 3rem 1rem;
     }
+
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 0 30px rgba(0, 255, 204, 0.1);
     }
+
     img.photo {
-      width: 200px;
-      height: 200px;
+      width: 180px;
+      height: 180px;
       object-fit: cover;
       border-radius: 50%;
+      border: 4px solid #00ffc8;
       margin-top: 1rem;
-      border: 3px solid #00bcd4;
+      transition: transform 0.3s ease;
     }
+
+    img.photo:hover {
+      transform: scale(1.05);
+    }
+
     h1 {
-      font-size: 2.5rem;
-      color: #00bcd4;
+      font-size: 2.8rem;
+      color: #00ffc8;
+      margin-bottom: 1rem;
     }
+
     p {
       font-size: 1.1rem;
-      margin: 0.6rem 0;
+      line-height: 1.6;
+      margin: 0.8rem 0;
     }
+
     a {
-      color: #00e676;
+      color: #ffd700;
       text-decoration: none;
+      font-weight: 500;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     .highlight {
-      color: #ffeb3b;
+      color: #ff9800;
       font-weight: bold;
     }
+
     .icons {
-      margin-top: 1.5rem;
+      margin-top: 2rem;
+      font-size: 1.05rem;
+    }
+
+    .section-title {
       font-size: 1.3rem;
+      margin-top: 2rem;
+      color: #66ffe3;
+    }
+
+    .emoji {
+      font-size: 1.3rem;
+      margin-right: 0.5rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>🌟 Hola, soy Jesús Enrique Guerrero Peralta</h1>
+    <h1>🚀 ¡Encantado, soy Jesús Enrique Guerrero Peralta!</h1>
     <img src="imagen/jesus-foto.jpg" alt="Foto de Jesús Guerrero" class="photo" />
-    
-    <p>📌 Gestión de Proyectos y <span class="highlight">Outsourcing IT</span></p>
-    <p>📊 Análisis de indicadores</p>
-    <p>🎓 Certificado en: ITIL, Scrum Master, COBIT, PRINCE2, ISO 20K, ISO 27K, OKR Master, Lean Six Sigma Belt</p>
-    
-    <p>🔭 Actualmente trabajando como <strong>Gestor de Proyectos</strong></p>
-    <p>🤝 También como <strong>Freelance</strong> para Empresas de Outsourcing de TI</p>
 
-    <p>📬 Escríbeme a: <a href="mailto:jesusguerrero0184@gmail.com">jesusguerrero0184@gmail.com</a></p>
+    <p><span class="emoji">🗂️</span> Gestión de Proyectos y <span class="highlight">Outsourcing IT</span></p>
+    <p><span class="emoji">📈</span> Análisis de indicadores</p>
+    <p><span class="emoji">🎖️</span> Certificado en ITIL, Scrum Master, COBIT, PRINCE2, ISO 20K, ISO 27K, OKR Master, Lean Six Sigma Belt</p>
 
+    <p><span class="emoji">🧭</span> Actualmente como <strong>Gestor de Proyectos</strong></p>
+    <p><span class="emoji">🧩</span> También trabajando como <strong>Freelance</strong> para Empresas de Outsourcing TI</p>
+
+    <p class="section-title">📬 Escríbeme:</p>
+    <p><a href="mailto:jesusguerrero0184@gmail.com">jesusguerrero0184@gmail.com</a></p>
+
+    <p class="section-title">🔗 Conéctate conmigo:</p>
     <div class="icons">
-      🌐 Conéctate conmigo:
-      <br>
-      <a href="https://www.facebook.com/jesus.guerreroperalta" target="_blank">Facebook</a> |
-      <a href="https://www.instagram.com/jesusguerrero0184/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/jesus.guerreroperalta" target="_blank">🌐 Facebook</a> |
+      <a href="https://www.instagram.com/jesusguerrero0184/" target="_blank">📷 Instagram</a>
     </div>
 
+    <p class="section-title">🛠️ Idiomas y herramientas:</p>
     <div class="icons">
-      ⚙️ Idiomas y herramientas: 
-      <br> AWS, Azure, Figma, GCP, Illustrator, Python
+      AWS | Azure | Figma | GCP | Illustrator | Python
     </div>
   </div>
 </body>
